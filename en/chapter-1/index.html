@@ -1,0 +1,377 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Chapter 1 · template</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 3.7.5">
+        <meta name="author" content="John Doe&Jane doe">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex-pro/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro-fixed/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Chapter 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Chapter 1</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="welcome-to-chapter-1">welcome to chapter 1</h1>
+<h2 id="examples">Examples</h2>
+<h3 id="markdown">markdown</h3>
+<pre><code class="lang-md"># h1
+
+## h2 
+
+### h3
+
+The **quick** brown _fox_ jumps over the lazy [~~cat~~](https://typelevel.org/cats/)  dog.
+
+Quote
+
+&gt; Dicebat Bernardus Carnotensis nos esse quasi nanos gigantum umeris insidentes, ut possimus plura eis et remotiora uidere, non utique proprii uisus acumine, aut eminentia corporis, sed quia in altum subuehimur et extollimur magnitudine gigantea.
+&gt;
+&gt;  John of Salisbury「Metalogicon」
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+Text prior to footnote reference.[^2]
+
+---
+
+[^2]: Comment to include in footnote.
+</code></pre>
+<h1 id="h1">h1</h1>
+<h2 id="h2">h2</h2>
+<h3 id="h3">h3</h3>
+<p>The <strong>quick</strong> brown <em>fox</em> jumps over the lazy <a href="https://typelevel.org/cats/" target="_blank"><del>cat</del></a>  dog.</p>
+<p>Quote</p>
+<blockquote>
+<p>Dicebat Bernardus Carnotensis nos esse quasi nanos gigantum umeris insidentes, ut possimus plura eis et remotiora uidere, non utique proprii uisus acumine, aut eminentia corporis, sed quia in altum subuehimur et extollimur magnitudine gigantea.</p>
+<p> John of Salisbury「Metalogicon」</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<p>Text prior to footnote reference.<sup><a href="#fn_2" id="reffn_2">2</a></sup></p>
+<hr>
+<blockquote id="fn_2">
+<sup>2</sup>. Comment to include in footnote.<a href="#reffn_2" title="Jump back to footnote [2] in the text."> ↩</a>
+</blockquote>
+<h3 id="code-highlight">code highlight</h3>
+<pre><code class="lang-javascript">console.log(&quot;hello world!&quot;)
+</code></pre>
+<h3 id="math">math</h3>
+<p>This template uses katex. </p>
+<p>For exampple,</p>
+<pre><code>{% math %}
+\begin{bmatrix}
+a &amp; b \\
+c &amp; d \\
+\end{bmatrix}
+{% endmath %}
+</code></pre><p>This is converted to:</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo fence="true">[</mo><mtable rowspacing="0.16em" columnalign="center center" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mi>a</mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi>b</mi></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mi>c</mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi>d</mi></mstyle></mtd></mtr></mtable><mo fence="true">]</mo></mrow><annotation encoding="application/x-tex">
+\begin{bmatrix}
+a &amp; b \\
+c &amp; d \\
+\end{bmatrix}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">[</span></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.45em;"><span style="top:-3.61em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">a</span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">c</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.95em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.45em;"><span style="top:-3.61em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">b</span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.95em;"><span></span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">]</span></span></span></span></span></span></span></p>
+<p>You can use <code>$$</code> instead of <code>{% math %}</code></p>
+<p>You can find further information here.</p>
+<p><a href="https://katex.org/" target="_blank">https://katex.org/</a></p>
+<h3 id="mermaid">Mermaid</h3>
+<p>You can draw diagrams such as state diagrams,sequence diagrams, class diagrams and charts using mermaid syntax.</p>
+<p>note: remove trailing <code>\</code> after triple ``` when you use mermaid block.</p>
+<pre><code class="lang-`txt">```mermaid
+pie
+  &quot;meaningOfLife&quot;: 42
+  &quot;others&quot;: 58
+```\
+</code></pre>
+<p>This is converted into this.</p>
+<pre><code class="lang-mermaid"><svg viewbox="0 0 784 450" aria-labelledby="chart-title-mermaid-1661615282073 chart-desc-mermaid-1661615282073" role="img" style="max-width: 784px; background-color: white;" height="450" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-1661615282073"><title id="chart-title-mermaid-1661615282073"/><desc id="chart-desc-mermaid-1661615282073"/><style>#mermaid-1661615282073 {font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#mermaid-1661615282073 .error-icon{fill:#552222;}#mermaid-1661615282073 .error-text{fill:#552222;stroke:#552222;}#mermaid-1661615282073 .edge-thickness-normal{stroke-width:2px;}#mermaid-1661615282073 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1661615282073 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1661615282073 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1661615282073 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1661615282073 .marker{fill:#333333;stroke:#333333;}#mermaid-1661615282073 .marker.cross{stroke:#333333;}#mermaid-1661615282073 svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-1661615282073 .pieCircle{stroke:black;stroke-width:2px;opacity:0.7;}#mermaid-1661615282073 .pieTitleText{text-anchor:middle;font-size:25px;fill:black;font-family:"trebuchet ms",verdana,arial,sans-serif;}#mermaid-1661615282073 .slice{font-family:"trebuchet ms",verdana,arial,sans-serif;fill:#333;font-size:17px;}#mermaid-1661615282073 .legend text{fill:black;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:17px;}#mermaid-1661615282073 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g/><g transform="translate(392,225)"><path class="pieCircle" fill="#ECECFF" d="M-89.12442970881736,162.11673580811475A185,185,0,0,1,-3.398394867633905e-14,-185L0,0Z"/><path class="pieCircle" fill="#ffffde" d="M1.1327982892113017e-14,-185A185,185,0,1,1,-89.12442970881736,162.11673580811475L0,0Z"/><text style="text-anchor: middle;" class="slice" transform="translate(-89.59394240439838,-23.00381456274909)">42%</text><text style="text-anchor: middle;" class="slice" transform="translate(89.59394240439838,23.003814562749078)">58%</text><text class="pieTitleText" y="-200" x="0"/><g transform="translate(216,-22)" class="legend"><rect style="fill: rgb(236, 236, 255); stroke: rgb(236, 236, 255);" height="18" width="18"/><text y="14" x="22">meaningOfLife</text></g><g transform="translate(216,0)" class="legend"><rect style="fill: rgb(255, 255, 222); stroke: rgb(255, 255, 222);" height="18" width="18"/><text y="14" x="22">others</text></g></g></svg></code></pre>
+<p>Another example is class diagram.</p>
+<pre><code class="lang-mermaid"><svg aria-labelledby="chart-title-mermaid-1661615282718 chart-desc-mermaid-1661615282718" role="img" viewbox="0 0 370.0625 375" style="max-width: 370.062px; background-color: white;" height="375" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-1661615282718"><title id="chart-title-mermaid-1661615282718"/><desc id="chart-desc-mermaid-1661615282718"/><style>#mermaid-1661615282718 {font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#mermaid-1661615282718 .error-icon{fill:#552222;}#mermaid-1661615282718 .error-text{fill:#552222;stroke:#552222;}#mermaid-1661615282718 .edge-thickness-normal{stroke-width:2px;}#mermaid-1661615282718 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1661615282718 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1661615282718 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1661615282718 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1661615282718 .marker{fill:#333333;stroke:#333333;}#mermaid-1661615282718 .marker.cross{stroke:#333333;}#mermaid-1661615282718 svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-1661615282718 g.classGroup text{fill:#9370DB;fill:#131300;stroke:none;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:10px;}#mermaid-1661615282718 g.classGroup text .title{font-weight:bolder;}#mermaid-1661615282718 .nodeLabel,#mermaid-1661615282718 .edgeLabel{color:#131300;}#mermaid-1661615282718 .edgeLabel .label rect{fill:#ECECFF;}#mermaid-1661615282718 .label text{fill:#131300;}#mermaid-1661615282718 .edgeLabel .label span{background:#ECECFF;}#mermaid-1661615282718 .classTitle{font-weight:bolder;}#mermaid-1661615282718 .node rect,#mermaid-1661615282718 .node circle,#mermaid-1661615282718 .node ellipse,#mermaid-1661615282718 .node polygon,#mermaid-1661615282718 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-1661615282718 .divider{stroke:#9370DB;stroke:1;}#mermaid-1661615282718 g.clickable{cursor:pointer;}#mermaid-1661615282718 g.classGroup rect{fill:#ECECFF;stroke:#9370DB;}#mermaid-1661615282718 g.classGroup line{stroke:#9370DB;stroke-width:1;}#mermaid-1661615282718 .classLabel .box{stroke:none;stroke-width:0;fill:#ECECFF;opacity:0.5;}#mermaid-1661615282718 .classLabel .label{fill:#9370DB;font-size:10px;}#mermaid-1661615282718 .relation{stroke:#333333;stroke-width:1;fill:none;}#mermaid-1661615282718 .dashed-line{stroke-dasharray:3;}#mermaid-1661615282718 #compositionStart,#mermaid-1661615282718 .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-1661615282718 #compositionEnd,#mermaid-1661615282718 .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-1661615282718 #dependencyStart,#mermaid-1661615282718 .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-1661615282718 #dependencyStart,#mermaid-1661615282718 .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-1661615282718 #extensionStart,#mermaid-1661615282718 .extension{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-1661615282718 #extensionEnd,#mermaid-1661615282718 .extension{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-1661615282718 #aggregationStart,#mermaid-1661615282718 .aggregation{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaid-1661615282718 #aggregationEnd,#mermaid-1661615282718 .aggregation{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaid-1661615282718 .edgeTerminals{font-size:11px;}#mermaid-1661615282718 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g transform="translate(0, 0)"><defs><marker orient="auto" markerheight="240" markerwidth="190" refy="7" refx="0" class="marker aggregation classDiagram" id="classDiagram-aggregationStart"><path d="M 18,7 L9,13 L1,7 L9,1 Z"/></marker></defs><defs><marker orient="auto" markerheight="28" markerwidth="20" refy="7" refx="19" class="marker aggregation classDiagram" id="classDiagram-aggregationEnd"><path d="M 18,7 L9,13 L1,7 L9,1 Z"/></marker></defs><defs><marker orient="auto" markerheight="240" markerwidth="190" refy="7" refx="0" class="marker extension classDiagram" id="classDiagram-extensionStart"><path d="M 1,7 L18,13 V 1 Z"/></marker></defs><defs><marker orient="auto" markerheight="28" markerwidth="20" refy="7" refx="19" class="marker extension classDiagram" id="classDiagram-extensionEnd"><path d="M 1,1 V 13 L18,7 Z"/></marker></defs><defs><marker orient="auto" markerheight="240" markerwidth="190" refy="7" refx="0" class="marker composition classDiagram" id="classDiagram-compositionStart"><path d="M 18,7 L9,13 L1,7 L9,1 Z"/></marker></defs><defs><marker orient="auto" markerheight="28" markerwidth="20" refy="7" refx="19" class="marker composition classDiagram" id="classDiagram-compositionEnd"><path d="M 18,7 L9,13 L1,7 L9,1 Z"/></marker></defs><defs><marker orient="auto" markerheight="240" markerwidth="190" refy="7" refx="0" class="marker dependency classDiagram" id="classDiagram-dependencyStart"><path d="M 5,7 L9,13 L1,7 L9,1 Z"/></marker></defs><defs><marker orient="auto" markerheight="28" markerwidth="20" refy="7" refx="19" class="marker dependency classDiagram" id="classDiagram-dependencyEnd"><path d="M 18,7 L9,13 L14,7 L9,1 Z"/></marker></defs><g class="root"><g class="clusters"/><g class="edgePaths"><path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-solid relation" id="id1" d="M146.41796875,79.7925029182513L137.78450520833334,85.16041909854276C129.15104166666666,90.5283352788342,111.88411458333333,101.26416763941711,103.25065104166667,112.63208381970855C94.6171875,124,94.6171875,136,94.6171875,142L94.6171875,148"/><path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-solid relation" id="id2" d="M198.35546875,87L198.35546875,91.16666666666667C198.35546875,95.33333333333333,198.35546875,103.66666666666667,203.83528645833334,112.77403943337843C209.31510416666666,121.8814122000902,220.27473958333334,131.7628244001804,225.75455729166666,136.70353050022547L231.234375,141.64423660027057"/><path marker-start="url(#classDiagram-aggregationStart)" style="fill:none" class="edge-pattern-solid relation" id="id3" d="M288.7824917218543,137L289.33436810154524,132.83333333333334C289.8862444812362,128.66666666666666,290.9899972406181,120.33333333333333,284.57507674530905,111.372911197233C278.16015625,102.41248906113265,264.2265625,92.82497812226529,257.259765625,88.0312226528316L250.29296875,83.23746718339792"/><path marker-start="url(#classDiagram-extensionStart)" style="fill:none" class="edge-pattern-solid relation" id="id4" d="M282.09375,238L282.09375,242.16666666666666C282.09375,246.33333333333334,282.09375,254.66666666666666,282.09375,263C282.09375,271.3333333333333,282.09375,279.6666666666667,282.09375,283.8333333333333L282.09375,288"/></g><g class="edgeLabels"><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"/></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"/></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"/></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"/></div></foreignobject></g></g></g><g class="nodes"><g transform="translate(198.35546875, 47.5)" id="classid-Component-0" class="node default"><rect height="79" width="103.875" y="-39.5" x="-51.9375" class="outer title-state"/><line y2="-9.5" y1="-9.5" x2="51.9375" x1="-51.9375" class="divider"/><line y2="6.5" y1="6.5" x2="51.9375" x1="-51.9375" class="divider"/><g class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel"/></div></foreignobject><foreignobject transform="translate( -44.4375, -32)" height="18" width="88.875" class="classTitle"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Component</span></div></foreignobject><foreignobject transform="translate( -44.4375, 14)" height="18" width="86.71875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">+operation()</span></div></foreignobject></g></g><g transform="translate(94.6171875, 187.5)" id="classid-ConcreteComponent-1" class="node default"><rect height="79" width="173.234375" y="-39.5" x="-86.6171875" class="outer title-state"/><line y2="-9.5" y1="-9.5" x2="86.6171875" x1="-86.6171875" class="divider"/><line y2="6.5" y1="6.5" x2="86.6171875" x1="-86.6171875" class="divider"/><g class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel"/></div></foreignobject><foreignobject transform="translate( -79.1171875, -32)" height="18" width="158.234375" class="classTitle"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">ConcreteComponent</span></div></foreignobject><foreignobject transform="translate( -79.1171875, 14)" height="18" width="86.71875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">+operation()</span></div></foreignobject></g></g><g transform="translate(282.09375, 187.5)" id="classid-Decorator-2" class="node default"><rect height="101" width="101.71875" y="-50.5" x="-50.859375" class="outer title-state"/><line y2="-20.5" y1="-20.5" x2="50.859375" x1="-50.859375" class="divider"/><line y2="17.5" y1="17.5" x2="50.859375" x1="-50.859375" class="divider"/><g class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel"/></div></foreignobject><foreignobject transform="translate( -37.7890625, -43)" height="18" width="75.578125" class="classTitle"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Decorator</span></div></foreignobject><foreignobject transform="translate( -43.359375, -9)" height="18" width="84.5"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">-component</span></div></foreignobject><foreignobject transform="translate( -43.359375, 25)" height="18" width="86.71875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">+operation()</span></div></foreignobject></g></g><g transform="translate(282.09375, 327.5)" id="classid-ConcreteDecorator-3" class="node default"><rect height="79" width="159.9375" y="-39.5" x="-79.96875" class="outer title-state"/><line y2="-9.5" y1="-9.5" x2="79.96875" x1="-79.96875" class="divider"/><line y2="6.5" y1="6.5" x2="79.96875" x1="-79.96875" class="divider"/><g class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel"/></div></foreignobject><foreignobject transform="translate( -72.46875, -32)" height="18" width="144.9375" class="classTitle"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">ConcreteDecorator</span></div></foreignobject><foreignobject transform="translate( -72.46875, 14)" height="18" width="86.71875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">+operation()</span></div></foreignobject></g></g></g></g></g></svg></code></pre>
+<p>For more information, visit <a href="https://mermaid-js.github.io" target="_blank">https://mermaid-js.github.io</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Chapter 1","level":"1.2","depth":1,"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex-pro","-search","search-pro-fixed","mermaid-newface"],"root":"./","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"katex-pro":{},"search-pro-fixed":{},"mermaid-newface":{},"highlight":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"John Doe&Jane doe","pdf":{"pageNumbers":true,"fontSize":14,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"template","language":"en","links":{"sidebar":{}},"gitbook":"*","publisher":""},"file":{"path":"chapter-1/README.md","mtime":"2022-08-27T15:47:35.685Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2022-08-27T15:47:58.712Z"},"basePath":"..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro-fixed/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro-fixed/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
