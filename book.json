@@ -1,0 +1,17 @@
+{
+  "publisher": "",
+  "root": "./",
+  "plugins":["katex-pro", "-search", "search-pro-fixed" ,"mermaid-newface"],
+  "pdf" :{
+    "pageNumbers": true,
+    "margin": {
+      "right": 40,
+      "left": 40 
+    }
+  },
+  "variables": {},
+  "links":{
+    "sidebar":{
+     }
+  }
+}
