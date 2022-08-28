@@ -1,7 +1,21 @@
 {
   "publisher": "",
   "root": "./",
-  "plugins":["katex-pro", "-search", "search-pro-fixed" ,"mermaid-newface"],
+  "plugins":["i18nsettings", "fontsettings", "katex-pro", "-search", "search-pro-fixed" ,"mermaid-newface"],
+  "pluginsConfig": {
+      "i18nsettings": {
+        "language": "ja",
+        "languages": [
+          {
+              "config": "ja",
+              "text": "日本語"
+          },
+          {
+              "config": "en",
+              "text": "English"
+          }]
+      }
+  },
   "pdf" :{
     "pageNumbers": true,
     "margin": {
