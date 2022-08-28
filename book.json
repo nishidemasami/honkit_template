@@ -1,4 +1,6 @@
 {
+  "title": "honkit_template",
+  "author": "NISHIDE, Masami",
   "publisher": "",
   "root": "./",
   "plugins":["i18nsettings", "fontsettings", "katex-pro", "-search", "search-pro-fixed" ,"mermaid-newface"],
