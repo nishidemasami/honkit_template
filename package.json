@@ -8,7 +8,7 @@
   "scripts": {
     "patch": "cp workaround.js /app/node_modules/gitbook-plugin-mermaid-newface/index.js",
     "serve": "honkit serve",
-    "build": "honkit build ./ ./dist",
+    "build": "honkit build ./ ./_book",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,6 +21,6 @@
     "gitbook-plugin-search-pro-fixed": "^1.0.1",
     "honkit": "^3.7.5",
     "gitbook-plugin-fontsettings": "^2.0.0",
-    "honkit-plugin-i18nsettings": "github:nishidemasami/honkit-plugin-i18nsettings"
+    "honkit-plugin-i18nsettings": "^1.0.0"
   }
 }
