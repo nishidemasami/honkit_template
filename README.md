@@ -1,6 +1,6 @@
 # Title
 
-\[description about this project here\](e.g. Template for better publish experience with honkit and github pages)
+Usage examples: https://nishidemasami.github.io/honkit_template/
 
 ## Edit Documents
 
